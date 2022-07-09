@@ -28,7 +28,8 @@ export class UserService {
   ]
 
   create(createUserDto: CreateUserDto) {
-    return this.user.push(createUserDto);
+     this.user.push(createUserDto);
+     return this.user;
   }
 
   findAll() {
@@ -54,6 +55,6 @@ export class UserService {
   remove(id: number) {
     const user = this.user.findIndex((user) => user.userId === id);
     this.user.splice(user, 1);//remove element from array
-    return true;
+    return this.user;
   }
 }

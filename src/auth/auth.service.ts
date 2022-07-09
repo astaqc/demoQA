@@ -1,12 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { UserService } from '../user/user.service';
 import { JwtService } from '@nestjs/jwt';
-import { CreateAuthDto } from './dto/create-auth.dto';
-import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
 export class AuthService {
-  
   constructor(
     private readonly usersService: UserService,
     private readonly jwtService: JwtService,
@@ -26,5 +23,16 @@ export class AuthService {
     return {
       access_token: this.jwtService.sign(payload),
     };
+  }
+
+  async signin(email: string, pass: string): Promise<any> {
+    const user = await this.usersService.findOneByEmail(email);
+    if (user && user.password === pass) {
+      const payload = { email: user.email };
+      return {
+        access_token: this.jwtService.sign(payload),
+      };
+    }
+    return null;
   }
 }

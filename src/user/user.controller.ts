@@ -10,7 +10,8 @@ export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Post()
-  create(@Body() createUserDto: CreateUserDto) {
+  create(@Body() createUserDto: CreateUserDto): any {
+    createUserDto.userId = Math.floor(Math.random() * 100);
     return this.userService.create(createUserDto);
   }
 
@@ -30,7 +31,7 @@ export class UserController {
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
+  remove(@Param('id') id: string): any {
     return this.userService.remove(+id);
   }
 }
