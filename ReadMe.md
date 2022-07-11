@@ -22,7 +22,7 @@ c. cypress E2E tests written for frontend
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 ** Frontend is built using NextJS, more info: <p align="center">
-  <a href="https://nextjs.org/" target="blank"><img src="https://assets.vercel.com/image/upload/q_auto/front/assets/design/white-nextjs.png" width="120" alt="NextJs Logo" /></a>
+  <a href="https://nextjs.org/" target="blank"><img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" width="120" alt="NextJs Logo" /></a>
 </p>
 
 
