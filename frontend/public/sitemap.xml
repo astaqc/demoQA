@@ -7,16 +7,16 @@
       
 	<url>
 		<loc>localhost:3000/blog/[slug]</loc>
-		<lastmod>2022-07-11</lastmod>
+		<lastmod>2022-07-12</lastmod>
 	</url>
 
 	<url>
 		<loc>localhost:3000/blog</loc>
-		<lastmod>2022-07-11</lastmod>
+		<lastmod>2022-07-12</lastmod>
 	</url>
 
 	<url>
 		<loc>localhost:3000/index</loc>
-		<lastmod>2022-07-11</lastmod>
+		<lastmod>2022-07-12</lastmod>
 	</url>
 </urlset>
