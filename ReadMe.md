@@ -1,20 +1,19 @@
 ## This test project consists both backend and frontend app, which are currently disjoint from each other. Your task is to create tests for both of these projects.
 
 The tests should consists of<br>
-a. Unit tests written for both Backend and frontend, using Jest
-b. Postman tests written for Backend
-c. cypress E2E tests written for frontend
-
+* Unit tests written for both Backend and frontend, using Jest
+* Postman tests written for Backend
+* cypress E2E tests written for frontend
 * Each of your test type should have both negative and positive scenarios(atleast 2)
 * All your test must have assertions
 
 
 ### What has to be tested in backend?
-** Backend consists of both rest and graphql apis, your tests must cover these end points, you can find the end points under controller(REST) and resolvers(Graphql).
+* Backend consists of both rest and graphql apis, your tests must cover these end points, you can find the end points under controller(REST) and resolvers(Graphql).
 
 ### What has to be tested in frontend?
-** Ui components in your Unit tests
-** Elements on the UI using cypress E2E
+* Ui components in your Unit tests
+* Elements on the UI using cypress E2E
 
 
 ### What is porject stack?
