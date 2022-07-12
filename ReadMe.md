@@ -1,6 +1,6 @@
 ## This test project consists both backend and frontend app, which are currently disjoint from each other. Your task is to create tests for both of these projects.
 
-The tests should consists of
+The tests should consists of<br>
 a. Unit tests written for both Backend and frontend, using Jest
 b. Postman tests written for Backend
 c. cypress E2E tests written for frontend
